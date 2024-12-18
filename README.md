@@ -7,8 +7,8 @@ QuizApp is a web-based quiz application built using Java, Spring Boot, and conne
 ## Features
 
 
-- **Quiz Management**: Create, edit, and delete quizzes.
-- **Question Management**: Manage questions within quizzes with options for multiple-choice, true/false, and open-ended questions.
+- **Quiz Management**: Create, edit, and delete quizzes.(CRUD operations)
+- **Question Management**: Manage questions within quizzes with options for multiple-choice,and open-ended questions.
 - **Data Persistence**: Data stored in a MySQL database for long-term storage and retrieval.
 
 
@@ -18,6 +18,7 @@ QuizApp is a web-based quiz application built using Java, Spring Boot, and conne
   - Java 17
   - Spring Boot 2.x
   - Spring Data JPA
+  - Postman for API testing
  
 - **Database**:
   - MySQL 8.x
@@ -33,7 +34,7 @@ QuizApp is a web-based quiz application built using Java, Spring Boot, and conne
 
 - JDK 11+
 - MySQL Server
-- IntelliJ IDEA/Eclipse/Any IDE
+- IntelliJ IDEA/Eclipse/VScode/Any IDE
 - Spring Boot CLI (optional)
 
 ## Getting Started
@@ -42,7 +43,7 @@ QuizApp is a web-based quiz application built using Java, Spring Boot, and conne
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/quizapp.git
+   git clone https://github.com/Yaligarchetan/quizapp.git
    cd quizapp
 Configure the MySQL database:
 
@@ -59,6 +60,7 @@ Build and run the application:
 Accessing the Application
 The application will be available at http://localhost:8080.
 Use the registration page for new users or log in using existing credentials.
+
 Contributing
 Fork it.
 Create your feature branch: git checkout -b feature-name
